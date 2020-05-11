@@ -1,7 +1,11 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import BaiTapRenderFilms from "./RenderWithMap/BaiTapRenderFilms/BaiTapRenderFilms";
+import BaiTapQuanLyXe from "./Props/BaiTapQuanLyXe/BaiTapQuanLyXe";
+// import Header from "./Props/Header";
+// import DanhSachPhim from "./Props/DanhSachPhim";
+// import DataFilm from "./Data/DataFilms.json";
+// import BaiTapRenderFilms from "./RenderWithMap/BaiTapRenderFilms/BaiTapRenderFilms";
 // import RenderWithMap from "./RenderWithMap/RenderWithMap";
 // import BaiTapState from "./State/BaiTapSate/BaiTapState";
 // import HandleEvent from "./HandleEvent";
@@ -18,7 +22,10 @@ function App() {
       {/* <StateDemo /> */}
       {/* <BaiTapState /> */}
       {/* <RenderWithMap></RenderWithMap> */}
-      <BaiTapRenderFilms />
+      {/* <BaiTapRenderFilms /> */}
+      {/* <Header logo="./background/bg-film.jpg" /> */}
+      {/* <DanhSachPhim mangPhim={DataFilm} /> */}
+      <BaiTapQuanLyXe />
     </div>
   );
 }
