@@ -19,7 +19,7 @@ export default class Xe extends Component {
             data-toggle="modal"
             data-target="#modelId"
             onClick={() => {
-              this.props.chiTiet(this.props.obXe);
+              this.props.chonXe(this.props.obXe);
             }}
           >
             Xem Chi Tiet

@@ -1,16 +1,8 @@
 import React, { Component } from "react";
-import DanhSachXe from "./DanhSachXe";
-import Modal from "./Modal";
+import DanhSachXeRedux from "./DanhSachXeRedux";
+import ModalRedux from "./ModalRedux";
 
-export default class BaiTapQuanLyXe extends Component {
-  state = {
-    thongTinXe: {
-      maSP: "",
-      tenSP: "",
-      hinhAnh: "",
-      gia: "",
-    },
-  };
+export default class BaiTapQuanLyXeRedux extends Component {
   mangSP = [
     {
       maSP: 1,
@@ -37,19 +29,11 @@ export default class BaiTapQuanLyXe extends Component {
       gia: 3000,
     },
   ];
-
-  chonXe = (xeChiTiet) => {
-    this.setState({
-      thongTinXe: xeChiTiet,
-    });
-  };
-
   render() {
     return (
       <div className="container-fluid">
-        <h3 className="text-center">Danh Sach Xe</h3>
-        <DanhSachXe mangXe={this.mangSP} chonXe={this.chonXe} />
-        <Modal thongTin={this.state.thongTinXe} />
+        <DanhSachXeRedux mangSP={this.mangSP} />
+        <ModalRedux />
       </div>
     );
   }
