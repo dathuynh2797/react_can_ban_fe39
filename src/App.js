@@ -2,7 +2,8 @@ import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 // import BaiTapQuanLyXeRedux from "./BaiTapQuanLyXeRedux/BaiTapQuanLyXeRedux";
-import BaiTapThuKinh from "./BaiTapThuKinh/BaiTapThuKinh";
+// import BaiTapThuKinh from "./BaiTapThuKinh/BaiTapThuKinh";
+import BaiTapGioHang from "./BaiTapGioHang/BaiTapGioHang";
 // import BaiTapQuanLyXe from "./Props/BaiTapQuanLyXe/BaiTapQuanLyXe";
 // import Header from "./Props/Header";
 // import DanhSachPhim from "./Props/DanhSachPhim";
@@ -29,7 +30,8 @@ function App() {
       {/* <DanhSachPhim mangPhim={DataFilm} /> */}
       {/* <BaiTapQuanLyXe /> */}
       {/* <BaiTapQuanLyXeRedux /> */}
-      <BaiTapThuKinh />
+      {/* <BaiTapThuKinh /> */}
+      <BaiTapGioHang />
     </div>
   );
 }
